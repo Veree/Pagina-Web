@@ -11,12 +11,12 @@
   "lang":"es-MX",
   "icons":[
     {
-      "src":"./C:\Users\Verenice Ramos\Desktop\fd/logo.jpg",
+      "src":"./C:\Users\Verenice Ramos\Desktop\Pagina-Web\imagenes/logo.jpg",
       "sizes":"240x240",
       "type":"image/jpg"
     },
     {
-      "src":"./C:\Users\Verenice Ramos\Desktop\fd/tec.png",
+      "src":"./C:\Users\Verenice Ramos\Desktop\Pagina-Web\imagenes/tec.png",
       "sizes":"1024x100",
       "type":"image/png"
     }
