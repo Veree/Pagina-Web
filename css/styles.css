@@ -1,0 +1,190 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.primera img{   /*imagen de cabecera*/
+	width:1349px;
+	/*margin: auto;
+	text-align:center;*/
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color: #DDD;
+	/*overflow: hidden;*/
+}
+
+header img{
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+
+	/*width:100%;
+	height:50px;
+	background: #333;
+	color:#fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;*/
+}
+
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+header.contenedor{
+	display: table;
+}
+
+
+/*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #DDD; /*Color de fondo*/
+}
+.primera{
+	width:1349px;
+	margin: auto;
+	text-align:center;
+}
+#contenedor{
+	width:1349px;
+	margin: auto;
+}
+/*main{    imajen 
+	width:1000px;
+	height: 150px;
+	background: url('code.jpg');
+}*/
+header nav{
+	text-align:center;
+	background-color: #333; /*color de la barra del menu */
+}
+header nav ul li{  /*tamaño de la barra del menu*/
+	display:inline-block;
+	padding: 15px;
+}
+header nav ul li a{  /*letras de la barra*/
+	text-decoration: none;
+	font-family:arial;
+	font-size:15px;
+	color:#DCDACA;
+	font-weight:bold;
+}
+header nav ul li a:hover{
+	color:#EFF524;
+} /*secciones de informacion*/
+section{
+	float:left;
+	width:684px;
+	height:450px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	background-color: white;
+}
+aside{
+	float: left;
+	width: 600px;
+	height: 450px;
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: white;
+}
+
+/*slider*/
+#slider{
+  height: 300px;
+  background:  #F0DC43;
+}
+
+#slider h2{
+  font-size: 50px;
+  text-align: center;
+  background: url(../imagenes/code.jpg);
+  line-height: 290px;
+  text-shadow: 0px 0px 50px white;
+}
+/*maquetar servicios*/
+.subheader{
+  font-size: 30px;
+  color: #0C0B0B;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  /*cambiamos el color rojo a un rgba con alfa claro
+  podemos usaar la pag hex  color tool y bajamos el alfa*/
+  border-bottom: 2px solid rgba(240, 220, 67);
+}
+
+/*informacion section*/
+.service{
+	width: 50%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service img{   /*modificacion del tamaño de la imagen*/
+	height:150px;
+	margin-bottom: 50px;
+}
+.service h3{
+	margin-bottom:10px; 
+}
+.service p{
+	color:#444;
+	text-align: center;
+  display: block;/*hacer esto me permite poder usar un porcentaje despues en el objeto*/
+  width: 95%;
+  /*para que centre*/
+  margin: 0px auto;
+}
+
+
+#footer{  /* pie de pajina
+	clear:both;
+	width:950;
+	height:50px;
+	background-color: #333; 
+	text-align: center;
+	color:white;
+	line-height:50px;*/
+
+  background: #0C0B0B;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+#footer .subheader{
+  color: white;
+}
+#networks{
+  display: block;
+  width: 220px; /*alinea las imagenes en el centro*/
+  margin: 0px auto;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#networks li{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 300ms; 
+}
+
+#networks li:hover{
+  opacity: 0.8;
+  transform: scale(1.1,1.1);
+}
